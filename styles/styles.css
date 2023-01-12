@@ -1,0 +1,72 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 3rem;
+    background-color: #F3F5FC;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+p{
+    font-size: 1.2rem;
+    color: #495057;
+}
+textarea{
+    font-size: 3.2rem;
+    background-color: transparent;
+    resize: none;
+    border: none;
+}
+
+::placeholder {
+    color: #0A3871;
+  }
+
+.btn1{
+    width: 32.8rem;
+    height: 6.7rem;
+    background-color: #0A3871;
+    color: #F3F5FC;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+.btn2{
+    width: 32.8rem;
+    height: 6.7rem;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 1.6rem;
+    border: 1px solid #0A3871;
+    border-radius: 2.4rem;
+}
+
+.principal{
+    display: flex;
+}
+
+.contenedor1{
+    margin: 4rem 6rem;
+}
+.contenedor2{
+    width: 40rem;
+    height: 94.4vh;
+    border-radius: 32px;
+    background-color: white ;
+    box-shadow:10px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor2 img{
+    margin-top: 10.3rem;
+}

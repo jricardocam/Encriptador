@@ -9,7 +9,33 @@
     <title>Encriptador</title>
 </head>
 <body>
-    <header></header>
-    <footer></footer>
+    <header>
+        <img src="./img/Logo.png" alt="Logo de Alura">
+    </header>
+    <main>
+        <div class="principal">
+            <div class="contenedor1">
+                <form action="encriptador.php" method="POST">
+                    <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                    <div class="advertencia">
+                        <img src="./img/bi_exclamation-circle-fill.png" alt="Signo de exclamación">
+                        <p>Solo letras minúsculas y sin acentos</p>
+                    </div>
+                    <input class="btn1" type="submit" value="Encriptar">
+                    <input class="btn2" type="submit" value="Desencriptar">
+                </form>
+            </div>
+
+            <div class="contenedor2">
+                <img src="./img/Muñeco.png" alt="Muñeco buscando resultados">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <h2>Ingresa el texto que desees encriptar o desencriptar.</h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Autor: José Ricardo Camacho Camacho</p>
+        <p>© AluraOneProgram.</p>
+    </footer>
 </body>
 </html>
