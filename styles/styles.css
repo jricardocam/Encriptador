@@ -59,14 +59,36 @@ textarea{
 .contenedor1{
     margin: 4rem 6rem;
 }
+
 .contenedor2{
     width: 40rem;
-    height: 94.4vh;
     border-radius: 32px;
     background-color: white ;
     box-shadow:10px 5px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
-.contenedor2 img{
-    margin-top: 10.3rem;
+.advertencia{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.advertencia p{
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.contenedor3{
+    margin: 5rem 3rem 5rem 3rem;
+}
+
+.contenedor3 h1{
+    margin:3rem 2rem 0rem 2rem;
+    text-align: center;
+}
+
+.contenedor3 h2{
+    margin:1rem 2rem 3rem 2rem;
+    text-align: center;
 }
