@@ -81,6 +81,11 @@ textarea{
 
 .contenedor3{
     margin: 5rem 3rem 5rem 3rem;
+    font-size: 3.2rem;
+    font-family: monospace;
+    background-color: transparent;
+    resize: none;
+    border: none;
 }
 
 .contenedor3 h1{
