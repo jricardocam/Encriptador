@@ -1,5 +1,6 @@
 
 function encriptar(){
+    document.getElementById("resultado").style.display = "block";
     var texto = document.getElementById("texto").value;
     var resultado = "";
     for(var i = 0; i < texto.length; i++){
@@ -21,6 +22,7 @@ function encriptar(){
 }
 
 function desencriptar(){
+    document.getElementById("resultado").style.display = "block";
     var texto = document.getElementById("texto").value;
     var resultado = "";
     for(var i = 0; i < texto.length; i++){
@@ -45,7 +47,3 @@ function desencriptar(){
     }
     document.getElementById("resultado").innerHTML = resultado;
 }
-
-// Boton para copiar el texto encriptado
-
-function copiar(){}

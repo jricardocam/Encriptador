@@ -52,6 +52,18 @@ textarea{
     border-radius: 2.4rem;
 }
 
+.btn3{
+    width: 32.8rem;
+    height: 6.7rem;
+    background-color: #0A3871;
+    color: #F3F5FC;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 2.4rem;
+    margin-right: 2.4rem;
+    display: none;
+}
+
 .principal{
     display: flex;
 }
@@ -97,3 +109,4 @@ textarea{
     margin:1rem 2rem 3rem 2rem;
     text-align: center;
 }
+
